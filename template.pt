@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+</head>
+<html>
+<body>
+
+<button>Zip Me!</button>
+
+<script>
+var button = document.getElementsByTagName('button')[0];  
+
+button.addEventListener('click', function() { 
+    var uri = "/zipper?data=%7B%22ids%22%3A%5B6%2C7%5D%7D"
+    window.location = uri
+}, false)
+
+</script>
+
+</body>
+</html>
